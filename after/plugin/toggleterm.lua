@@ -5,7 +5,7 @@ require('toggleterm').setup {
   direction = "float",
   -- close_on_exit = true,
   open_mapping = [[<C-\>]],
-  shell = vim.o.shell,
+  shell = 'pwsh',
   float_opts = {
     border = 'curved',
     highlights = {
